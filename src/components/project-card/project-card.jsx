@@ -8,7 +8,7 @@ const ProjectCard = ({arrObj}) => {
       </div>
       <div className="text-center flex flex-col gap-4">
         <h2>
-            <a href={link}>
+            <a href={link} target="_blank">
             {title}
             </a>
             </h2>

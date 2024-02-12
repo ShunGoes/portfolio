@@ -14,7 +14,7 @@ export const arrayOfObject1 = [
       title: 'Learning Management System',
       description: " Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique",
       skills: ['React','TailwindCSS','Artificial Intellgence','Framer Motion','API','Firebase'],
-      link: ''
+      link: 'https://github.com/ShunGoes/lms'
   
     },
     {
@@ -24,7 +24,7 @@ export const arrayOfObject1 = [
       title: 'MarketPlace',
       description: " Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique",
       skills: ['React','TailwindCSS','Artificial Intellgence','Framer Motion','API','Firebase'],
-      link: ''
+      link: 'https://github.com/ShunGoes/marketplace'
   
     },
     {
@@ -34,19 +34,10 @@ export const arrayOfObject1 = [
       title: 'Oportun ',
       description: " A clone of the Oportun landing page",
       skills: ['React','TailwindCSS'],
-      link: ''
+      link: 'https://github.com/ShunGoes/oportun-clone'
   
     },
-    {
-      id: 4,
-      image: AutoZone,
-      alt: ' ',
-      title: 'AutoZone ',
-      description: " A Car for Hire Clone",
-      skills: ['React','CSS'],
-      link: ''
-  
-    },
+    
   ]
 
   export const arrayOfObject2 = [
@@ -57,7 +48,7 @@ export const arrayOfObject1 = [
       title: 'Pharmahub',
       description: " Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique",
       skills: ['React','TailwindCSS','API','Firebase', 'Typescript'],
-      link: ''
+      link: 'https://github.com/ShunGoes/pharmahub'
   
     },
     {
@@ -67,7 +58,7 @@ export const arrayOfObject1 = [
       title: 'Pit Africa',
       description: " Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique",
       skills: ['React','TailwindCSS'],
-      link: ''
+      link: 'https://github.com/Gamaliel51/PIT-PROJECT'
   
     },
     {
@@ -77,7 +68,7 @@ export const arrayOfObject1 = [
       title: 'Ogaryde',
       description: " A clone of the Oportun landing page",
       skills: ['React','TailwindCSS'],
-      link: ''
+      link: 'https://github.com/wyenelle/ogaryde_admin'
   
     },
   ]
