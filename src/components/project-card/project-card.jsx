@@ -4,7 +4,7 @@ const ProjectCard = ({arrObj}) => {
     <div className="flex flex-col gap-5 lg:w-[60%] lg:mx-auto my-[3rem] lg:my-[4rem]">
       <div className=" h-[10rem] w-full rounded-2xl ">
 
-        <img src={image} alt={alt} className="object-cover" />
+        <img src={image} alt={alt} className="object-cover rounded-2xl h-full w-full" />
       </div>
       <div className="text-center flex flex-col gap-4">
         <h2>
