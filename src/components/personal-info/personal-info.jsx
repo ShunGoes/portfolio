@@ -71,7 +71,7 @@ const PersonalInfo = () => {
         <a href="https://www.linkedin.com/in/favour-timothy-234a07182/" title='Visit my LinkedIn' className='border p-2 rounded-lg'>
           <FaLinkedin size={20} />
         </a>
-        <a href="https://github.com/wyenelle" title='Check out my Github' className='border p-2 rounded-lg'>
+        <a href="https://github.com/shunGoes" title='Check out my Github' className='border p-2 rounded-lg'>
           <FaGithub size={20} /> 
         </a>
         <div className=" lg:block tel relative border p-2 rounded-lg">
