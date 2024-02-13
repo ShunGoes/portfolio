@@ -2,7 +2,7 @@ const ProjectCard = ({arrObj}) => {
     const {image,alt,title,description,skills,link} = arrObj
   return (
     <div className="flex flex-col gap-5 lg:w-[60%] lg:mx-auto my-[3rem] lg:my-[4rem]">
-      <div className="border-4 h-[10rem] w-full rounded-2xl ">
+      <div className=" h-[10rem] w-full rounded-2xl ">
 
         <img src={image} alt={alt} className="object-cover" />
       </div>
