@@ -12,7 +12,7 @@ export const arrayOfObject1 = [
       image: LMS,
       alt: ' ',
       title: 'Learning Management System',
-      description: " Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique",
+      description: " A system designed for schools.to provide a virtual educational environment for student ",
       skills: ['React','TailwindCSS','Artificial Intellgence','Framer Motion','API','Firebase'],
       link: 'https://github.com/ShunGoes/lms'
   
@@ -22,7 +22,7 @@ export const arrayOfObject1 = [
       image: Market,
       alt: ' ',
       title: 'MarketPlace',
-      description: " Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique",
+      description: "e-Commerce Web App",
       skills: ['React','TailwindCSS','Artificial Intellgence','Framer Motion','API','Firebase'],
       link: 'https://github.com/ShunGoes/marketplace'
   
@@ -46,7 +46,7 @@ export const arrayOfObject1 = [
       image: Pharmahub,
       alt: ' ',
       title: 'Pharmahub',
-      description: " Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique",
+      description: "Quality medication and health care service",
       skills: ['React','TailwindCSS','API','Firebase', 'Typescript'],
       link: 'https://github.com/ShunGoes/pharmahub'
   
@@ -56,19 +56,19 @@ export const arrayOfObject1 = [
       image: Pit,
       alt: ' ',
       title: 'Pit Africa',
-      description: " Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique",
+      description: " Finding the right healthcare service around",
       skills: ['React','TailwindCSS'],
       link: 'https://github.com/Gamaliel51/PIT-PROJECT'
   
     },
-    {
-      id: 3,
-      image: '',
-      alt: ' ',
-      title: 'Ogaryde',
-      description: " A clone of the Oportun landing page",
-      skills: ['React','TailwindCSS'],
-      link: 'https://github.com/wyenelle/ogaryde_admin'
+    // {
+    //   id: 3,
+    //   image: '',
+    //   alt: ' ',
+    //   title: 'Ogaryde',
+    //   description: " A clone of the Oportun landing page",
+    //   skills: ['React','TailwindCSS'],
+    //   link: 'https://github.com/wyenelle/ogaryde_admin'
   
-    },
+    // },
   ]
