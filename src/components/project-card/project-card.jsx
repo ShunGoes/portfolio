@@ -23,7 +23,7 @@ const ProjectCard = ({arrObj}) => {
             }
           
         </div>
-        <button className="h-[50px] w-6/12 mx-auto flex justify-center items-center font-semibold  border">
+        <button className="h-[50px] w-6/12 mx-auto rounded-2xl flex justify-center items-center font-semibold  border">
           {' '}
           View on Github
         </button>
