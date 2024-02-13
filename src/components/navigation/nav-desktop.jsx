@@ -1,24 +1,26 @@
-import { routes } from "../../routes";
+import { routes } from '../../routes'
+import { useContext } from 'react'
+import { RefContext } from '../../context/ref-context'
 
 const NavDesktop = () => {
+    const {scrollToVolunteer} = useContext(RefContext)
   return (
-    <ul className="hidden lg:flex lg:items-center gap-4 text-sm pr-2 justify-between w-[30%] h-[5rem]">
-      {routes.map((route) => {
-        const { Icon, href, title } = route;
+    <div className="hidden lg:flex lg:items-center gap-4 text-sm pr-2 justify-between w-[30%] h-[5rem]">
+      {routes.map(route => {
+        const { Icon, href, title } = route
         return (
-          <li key={title}>
-            <a
-              href={href}
+            <button
+            onClick={scrollToVolunteer}
+              key={title}
               className="flex items-center gap-1 hover:text-neutral-400 transition-all desktop-link"
             >
               <Icon />
               {title}
-            </a>
-          </li>
-        );
+            </button>
+        )
       })}
-    </ul>
-  );
-};
+    </div>
+  )
+}
 
 export default NavDesktop

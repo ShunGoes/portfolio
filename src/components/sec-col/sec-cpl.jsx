@@ -6,7 +6,6 @@ import Project from '../project/project'
 import Volunteer from '../volunteer/volunteer'
 import Footer from '../footer/footer'
 import {motion,useScroll} from "framer-motion"
-import Framer from '../framer/framer'
 
 const SecCol = () => {
   const { scrollYProgress } = useScroll();
