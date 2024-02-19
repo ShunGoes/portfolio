@@ -55,9 +55,7 @@ const PersonalInfo = () => {
         <p className="text-gray-400 text-xl font-[600] border px-3">
           Typescript
         </p>
-        <p className="text-gray-400 text-xl font-[600] border px-3">Vue</p>
-        <p className="text-gray-400 text-xl font-[600] border px-3">Node</p>
-        <p className="text-gray-400 text-xl font-[600] border px-3">Python</p>
+        <p className="text-gray-400 text-xl font-[600] border px-3">Node/Express</p>
       </motion.div>
       <motion.div 
           variants={ChildVariants}
