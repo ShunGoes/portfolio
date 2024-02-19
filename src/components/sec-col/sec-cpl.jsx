@@ -3,7 +3,6 @@ import About from '../about/about'
 import Experience from '../experience/experience'
 import './sec.css'
 import Project from '../project/project'
-import Volunteer from '../volunteer/volunteer'
 import Footer from '../footer/footer'
 import {motion,useScroll} from "framer-motion"
 
@@ -18,7 +17,6 @@ const SecCol = () => {
       <About />
       <Experience /> 
       <Project />
-      <Volunteer /> 
       <Footer />
       </div>
     </section>
