@@ -29,7 +29,7 @@ export const arrayOfObject1 = [
     description: " Finding the right healthcare service around",
     skills: ['React','TailwindCSS'],
     live_link: "https://pit-project-ochre.vercel.app/",
-    link: 'https://github.com/Gamaliel51/PIT-PROJECT'
+    link: 'https://github.com/pitafrica/PIT-WEBSITE'
 
   },
     {
