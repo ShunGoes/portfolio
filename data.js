@@ -1,14 +1,25 @@
-import LMS from './src/assets/lms.png'
-import Market from './src/assets/marketplace.png' 
+
 import Oportun from './src/assets/oportun.png'
-import AutoZone from './src/assets/autozone.png'
 
 import Pharmahub from './src/assets/pharmahub.png'
+import Lumina from './src/assets/lumina.png'
 import Pit from './src/assets/pit.png'
 
 export const arrayOfObject1 = [
   {
     id: 1,
+    image: Lumina,
+    alt: ' ',
+    volunteered: true,
+    title: 'Lummina Dating App',
+    description: "Connect with your lover",
+    skills: ['React','TailwindCSS','API','Firebase', 'Typescript', "Socket,io"],
+    live_link: "https://lumina-kohl.vercel.app/",
+    link: 'https://github.com/ShunGoes/lumina'
+
+  },
+  {
+    id: 2,
     image: Pharmahub,
     alt: ' ',
     volunteered: true,
@@ -21,7 +32,7 @@ export const arrayOfObject1 = [
   },
     
   {
-    id: 2,
+    id: 3,
     image: Pit,
     alt: ' ',
     volunteered: true,
@@ -33,7 +44,7 @@ export const arrayOfObject1 = [
 
   },
     {
-      id: 3,
+      id: 4,
       image: Oportun,
       alt: ' ',
       volunteered: false,
