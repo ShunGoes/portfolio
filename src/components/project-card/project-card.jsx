@@ -1,5 +1,5 @@
 const ProjectCard = ({ arrObj }) => {
-  const { image, alt, title, description, skills, link, volunteered } = arrObj
+  const { image, alt, title, description, skills, link,live_link, volunteered } = arrObj
   return (
     <div className="flex flex-col gap-5 lg:w-[60%] lg:mx-auto my-[5rem] lg:my-[4rem]">
       <div className=" h-[10rem] w-full rounded-2xl ">
@@ -12,7 +12,7 @@ const ProjectCard = ({ arrObj }) => {
       <div className="text-center flex flex-col gap-4">
         <div className="flex justify-center space-x-2">
         <h2>
-          <a href={link} target="_blank">
+          <a href={live_link} target="_blank">
             {title}
           </a>
         </h2>
