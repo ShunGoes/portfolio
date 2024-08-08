@@ -28,7 +28,7 @@ const ProjectCard = ({ arrObj }) => {
             </p>
           ))}
         </div>
-        <a href={link} target="_blank">
+        <a href={link} target="_blank" className={`${link.length < 1 ? "hidden": "block"}`}>
           <button className="h-[50px] w-6/12 mx-auto rounded-2xl flex justify-center items-center font-semibold  border">
             {' '}
             View on Github

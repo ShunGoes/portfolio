@@ -36,9 +36,9 @@ const PersonalInfo = () => {
       <motion.p 
         variants={ChildVariants}
         className=" w-11/12">
-        👋 Hello, i'm a passionate web development based in Nigeria. With a keen
+        👋 Hello, i'm a passionate web developer based in Nigeria. With a keen
         interest in Frontend web development, I bring creativity and a
-        solutions-driven mindset to every project.
+        solutions-driven mindset to every project. Reach out to me today let's work together.
       </motion.p>
       <motion.div 
           variants={ChildVariants}
@@ -47,6 +47,9 @@ const PersonalInfo = () => {
         <p className="text-gray-400 text-xl font-[600] border px-3">CSS</p>
         <p className="text-gray-400 text-xl font-[600] border px-3">
           TailwindCSS
+        </p>
+        <p className="text-gray-400 text-xl font-[600] border px-3">
+          WordPress
         </p>
         <p className="text-gray-400 text-xl font-[600] border px-3">
           Javascript

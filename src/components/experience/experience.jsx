@@ -31,6 +31,45 @@ const Experience = () => {
           
           className="flex flex-col gap-2">
           <span className="text-gray-400 text-[10px] font-semibold dates lg:text-[13px]">
+            May 2024- Present
+          </span>
+          <strong className="experience-title text-[14px]">
+            Zerotozenith Media
+          </strong>
+          <span className="text-gray-400 text-[10px] font-semibold dates lg:text-[13px]">
+            WordPress/Frontend Developer
+          </span>
+        </div>
+        <ul className=''>
+          <li>
+          Improved website speed by 35% through strategic optimization techniques, enhancing user experience and SEO.
+          </li><br />
+
+        <li>
+        Delivered comprehensive WordPress solutions, including custom theme development and plugin integration, to more than 20 clients.
+        </li><br />
+
+        <li>
+        Leveraged HTML, CSS, and JavaScript to create dynamic and engaging WordPress websites, aligning with client goals.
+        </li><br />
+        </ul>
+        <div className="italic flex shrink-0 flex-wrap">
+          <p className="px-2 border rounded-lg">Divi Theme Builder</p>
+          <p className="px-2 border rounded-lg">HTML</p>
+          <p className="px-2 border rounded-lg">Css</p>
+          <p className="px-2 border rounded-lg">Responsive Webpage Design</p>
+        </div>
+      </motion.div>
+      <motion.div 
+        initial = "hidden"
+        whileInView = "visible"
+        variants={ChildVariants}
+        viewport={{once:true}}
+        className="flex flex-col gap-4 my-[2.5rem] lg:my-[2rem] lg:gap-2">
+        <div 
+          
+          className="flex flex-col gap-2">
+          <span className="text-gray-400 text-[10px] font-semibold dates lg:text-[13px]">
             Sept 2023 - Present
           </span>
           <strong className="experience-title text-[14px]">

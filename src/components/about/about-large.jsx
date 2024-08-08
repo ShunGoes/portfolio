@@ -36,9 +36,9 @@ const About_Large = () => {
         variants={ChildVariants}
         // viewport={{once:true}}
         >
-        My expertise extends to the use of various frontend development
-        technologies such as React and Typescript. While diving into other
-        aspects of web development on the backend with Nodejs.
+       My expertise extends to the use of various frontend development
+      technologies such as React and Typescript. While diving into other
+      aspects of web development such as Content Management Systems (CMS) with WordPress and i have also tried building on the backend with Nodejs .
       </motion.p>{' '}
       <br />
       <motion.p 

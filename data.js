@@ -4,6 +4,9 @@ import Oportun from './src/assets/oportun.png'
 import Pharmahub from './src/assets/pharmahub.png'
 import Lumina from './src/assets/lumina.png'
 import Pit from './src/assets/pit.png'
+import Flourish from './src/assets/apex1.png'
+import Haven from './src/assets/apex2.png'
+
 
 export const arrayOfObject1 = [
   {
@@ -43,8 +46,32 @@ export const arrayOfObject1 = [
     link: 'https://github.com/pitafrica/PIT-WEBSITE'
 
   },
+
+  
+  {
+     id: 4,
+     image: Flourish,
+     alt: ' Flourish Relationship Coaching Center',
+     volunteered: false,
+     title: 'Flourish Relationship Coaching Center ',
+     description: " Get expert relationship coaching training for your love life and family too",
+     skills: ['WordPress','CSS'],
+     live_link: "https://flourishingrelationship.com/",
+     link: ''
+    },
+  {
+     id: 5,
+     image: Haven,
+     alt: ' Haven Medical Center',
+     volunteered: false,
+     title: 'Haven Medical Center',
+     description: " Start Your Personalized Path to Optimal Well-being",
+     skills: ['WordPress','CSS'],
+     live_link: "https://haven.zerotozenithmedia.com/",
+     link: ''
+    },
     {
-      id: 4,
+      id: 6,
       image: Oportun,
       alt: ' ',
       volunteered: false,
@@ -53,8 +80,8 @@ export const arrayOfObject1 = [
       skills: ['React','TailwindCSS'],
       live_link: "https://oportun-clone.vercel.app/",
       link: 'https://github.com/ShunGoes/oportun-clone'
-  
-    },
+   
+     },
     
   ]
 
