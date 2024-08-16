@@ -6,11 +6,24 @@ import Lumina from './src/assets/lumina.png'
 import Pit from './src/assets/pit.png'
 import Flourish from './src/assets/apex1.png'
 import Haven from './src/assets/apex2.png'
+import Finexa from "./src/assets/finexa.png"
 
 
 export const arrayOfObject1 = [
   {
     id: 1,
+    image: Finexa,
+    alt: ' ',
+    volunteered: false,
+    title: 'Finexa',
+    description: "Finexa is a fintech platform under development",
+    skills: ['React','TailwindCSS','API', 'Typescript'],
+    live_link: "https://finexa-fintech.vercel.app/",
+    link: 'https://github.com/ShunGoes/finexa'
+
+  },
+  {
+    id: 2,
     image: Lumina,
     alt: ' ',
     volunteered: true,
@@ -22,7 +35,7 @@ export const arrayOfObject1 = [
 
   },
   {
-    id: 2,
+    id: 3,
     image: Pharmahub,
     alt: ' ',
     volunteered: true,
@@ -35,7 +48,7 @@ export const arrayOfObject1 = [
   },
     
   {
-    id: 3,
+    id: 4,
     image: Pit,
     alt: ' ',
     volunteered: true,
@@ -49,7 +62,7 @@ export const arrayOfObject1 = [
 
   
   {
-     id: 4,
+     id: 5,
      image: Flourish,
      alt: ' Flourish Relationship Coaching Center',
      volunteered: false,
@@ -60,7 +73,7 @@ export const arrayOfObject1 = [
      link: ''
     },
   {
-     id: 5,
+     id: 6,
      image: Haven,
      alt: ' Haven Medical Center',
      volunteered: false,
@@ -71,7 +84,7 @@ export const arrayOfObject1 = [
      link: ''
     },
     {
-      id: 6,
+      id: 7,
       image: Oportun,
       alt: ' ',
       volunteered: false,
