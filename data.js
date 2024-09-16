@@ -7,9 +7,22 @@ import Pit from './src/assets/pit.png'
 import Flourish from './src/assets/apex1.png'
 import Haven from './src/assets/apex2.png'
 import Finexa from "./src/assets/finexa.png"
+import Doryina from "./src/assets/doryina.png"
 
 
 export const arrayOfObject1 = [
+  {
+    id: 0,
+    image: Doryina,
+    alt: ' ',
+    volunteered: false,
+    title: 'Doryina',
+    description: "Unlock the easiest pathways to study, work, or settle abroad. Let us guide you through every step with trusted expertise and a seamless process. Start your journey today",
+    skills: ['React','TailwindCSS', 'Typescript'],
+    live_link: "https://doryina.vercel.app/",
+    link: 'https://github.com/ShunGoes/doryina'
+
+  },
   {
     id: 1,
     image: Finexa,
